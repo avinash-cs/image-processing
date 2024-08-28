@@ -1,3 +1,5 @@
+<b>Image Processing via CSV</b>
+
 The project aims to process images uploaded via CSV files, apply transformations, and store the results in a database. The system is built using Node.js with Express, and it integrates various libraries for handling different tasks.
 
 How to run:
@@ -14,6 +16,20 @@ Step 2:
 Step 3:
 
     npm start
+
+API's
+    
+1. POST 
+          
+            /uploads
+
+2. GET 
+
+            /status/:request_id
+
+4. GET 
+
+           /output/:request_id
 
 Important Links:
 
